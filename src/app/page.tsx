@@ -44,16 +44,17 @@ export default function Home() {
         <hr className="w-full my-10 border-[0.5px] border-gray04" />
         <div className="flex items-center justify-between w-full gap-4">
           <div className="flex-1 h-16 border border-gray04 rounded-2xl bg-gray06 flex items-center">
-            <div className="w-8 h-8 m-4">
+            <button className="w-8 h-8 m-4">
               <PlusCircle />
-            </div>
-            <span className="text-[18px] text-gray02 font-normal">
-              Envie uma mensagem ou digite “/” para exibir os comandos
-            </span>
+            </button>
+            <input
+              className="flex-1 bg-transparent outline-none text-gray02 text-[18px] font-normal"
+              placeholder="Envie uma mensagem ou digite “/” para exibir os comandos"
+            />
           </div>
-          <div className="w-16 h-16">
+          <button className="w-16 h-16">
             <Icon06 />
-          </div>
+          </button>
         </div>
       </div>
     </main>

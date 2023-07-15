@@ -10,7 +10,7 @@ interface ButtonProps {
 
 export function Button({ icon1, icon2, title }: ButtonProps) {
   return (
-    <button className="w-[608px] h-24 border border-gray04 rounded-2xl bg-gray06 p-4 flex items-center justify-between">
+    <button className="w-[608px] h-24 border border-gray04 rounded-2xl bg-gray06 p-4 flex items-center justify-between hover:bg-gray07">
       <div className="flex items-center">
         {icon1}
         <span className="text-[18px] text-gray02 font-semibold ml-6">
